@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 800px;
+    background: url('../img/bg/main_bg.png') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    /* WordPress интенсив */
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    /* Создать свой сайт на WordPress */
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 41px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F9BF3B;   
+}
+
+h2.title {
+    /* Куда сложнее сделать это правильно! */
+    margin-top: 30px;
+}
+
+.simple .title_big {
+    /* это просто! */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 21px;
+}
+
+.promo .promo_text {
+    /* Ежедневно в России появляется более 5 000 новых сайтов. И тольк */
+    padding: 0 13px;
+    margin-top: 23px;
+    font-family: 'Roboto Light';
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.promo .promo_text span {
+    font-family: 'Roboto - Bold';
+    font-weight: 700;
+    color: #F9BF3B;
+}
+
+.promo .promo_btn {
+    /* Кнопка */
+    display: block;
+    margin: 0px auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
+    
+    /* Записаться на интенсив! */
+    color: #FFFFFF;
+    font-family: 'RobotoCondensed';
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    outline: none;
+}
+
+.more {
+    margin-top: 73px;
+}
+
+.more .more_text {
+    /* узнать больше об интенсиве */
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
