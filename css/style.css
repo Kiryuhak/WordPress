@@ -125,3 +125,63 @@ h2.title {
     margin: 0 auto;
     margin-top: 13px;
 }
+
+.waiting {
+    height: 604px;
+    background: #EFEFEF;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header {
+    /* Что вас ждет в нашем интенсиве? */
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.waiting .waiting_divider {
+    /* Разделитель */
+    width: 220px;
+    height: 7px;
+    margin: 0 auto;
+    margin-top: 18px;
+    background: #F9BF3B;
+}
+
+.waiting .waiting_subheader {
+    /* 2 бесплатных полноценных обучающих вебинара, где: */
+    margin-top: 17px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #4A4A4A;
+}
