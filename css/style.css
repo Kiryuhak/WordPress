@@ -5,6 +5,7 @@
 }
 
 .container {
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -83,7 +84,7 @@ h2.title {
     color: #F9BF3B;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     /* Кнопка */
     display: block;
     margin: 0px auto;
@@ -104,6 +105,10 @@ h2.title {
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     cursor: pointer;
     outline: none;
+}
+
+.gift .gift_btn {
+    margin-top: 51px;
 }
 
 .more {
@@ -127,12 +132,12 @@ h2.title {
 }
 
 .waiting {
-    height: 604px;
+    min-height: 604px;
     background: #EFEFEF;
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     /* Что вас ждет в нашем интенсиве? */
     font-family: 'Roboto';
     font-weight: 400;
@@ -142,7 +147,10 @@ h2.title {
     color: #252525;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+    color: #EFEFEF;
+}
+.waiting .waiting_divider, .finish .finish_divider {
     /* Разделитель */
     width: 220px;
     height: 7px;
@@ -162,13 +170,12 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 15px;
     width: 339px;
     text-align: center;
 }
@@ -184,4 +191,160 @@ h2.title {
     font-size: 15px;
     line-height: 21px;
     color: #4A4A4A;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+    /* Что такое оптимизация и зачем она нужна? */
+    margin-left: 391px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 10px;
+    color: #299CBD;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    /* На просторах интернета несчетное количество действующих и даже */
+    margin-top: 25px;
+    margin-left: 391px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+.optimization .optimization_text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/second_bg.png') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    /* Круг */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background: #B4E2FF;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
+}
+
+
+
+.gift {
+    background: #EFEFEF;
+    height: 631px;
+    padding: 88px 0 88px 0;
+}
+
+.gift .gift_icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text {
+    /* Для всех участников интенсива предусмотрены бонусы и подарки. */
+    margin-top: 45px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 43px;
+    align-items: center;
+    text-align: center;
+    color: #252525;
+}
+
+.first {
+    height: 512px;
+    padding: 88px 0 222px 0;
+}
+
+.first .first_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.first .first_header {
+    /* Первый вебинар состоится: */
+    margin-top: 36px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.first .first_subheader {
+    /* 10 сентября в 20:00 по Москве */
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+.first .first_endheader {
+    /* Успейте записаться, количество мест ограничено! */
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    background: #1A1A1A;
+    padding: 57px 0 67px 0;
+    color: #888888;
 }
