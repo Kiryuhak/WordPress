@@ -45,7 +45,7 @@ h1 {
     line-height: 24px;
     text-align: center;
     text-transform: uppercase;
-    color: #F9BF3B;   
+    color: #F9BF3B;
 }
 
 h2.title {
@@ -75,7 +75,7 @@ h2.title {
     line-height: 28px;
     text-align: center;
     color: #FFFFFF;
-    
+
 }
 
 .promo .promo_text span {
@@ -84,7 +84,8 @@ h2.title {
     color: #F9BF3B;
 }
 
-.promo .promo_btn, .gift .gift_btn {
+.promo .promo_btn,
+.gift .gift_btn {
     /* Кнопка */
     display: block;
     margin: 0px auto;
@@ -94,7 +95,7 @@ h2.title {
     box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
     border: 4px solid rgba(0, 0, 0, 0.23);
     background: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
-    
+
     /* Записаться на интенсив! */
     color: #FFFFFF;
     font-family: 'RobotoCondensed';
@@ -137,7 +138,8 @@ h2.title {
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header,
+.finish .finish_header {
     /* Что вас ждет в нашем интенсиве? */
     font-family: 'Roboto';
     font-weight: 400;
@@ -150,7 +152,9 @@ h2.title {
 .finish .finish_header {
     color: #EFEFEF;
 }
-.waiting .waiting_divider, .finish .finish_divider {
+
+.waiting .waiting_divider,
+.finish .finish_divider {
     /* Разделитель */
     width: 220px;
     height: 7px;
@@ -328,6 +332,7 @@ h2.title {
     text-transform: uppercase;
     color: #299CBD;
 }
+
 .first .first_endheader {
     /* Успейте записаться, количество мест ограничено! */
     margin-top: 25px;
@@ -340,8 +345,8 @@ h2.title {
     color: #4A4A4A;
 }
 
-
 footer {
+    /* Служба поддержки | Политика конфиденциальностиПозвоните нам 8-800-555-01-21 */
     margin: 0 auto;
     text-align: center;
     background: #1A1A1A;
